@@ -11,6 +11,29 @@ project 1 - A Random Quote Generator
  * `quotes` array 
 ***/
 
+var quotes = [
+    {
+      quote: "test quote",
+      source: "test source",
+    },
+    {
+      quote: "test quote",
+      source: "test source",
+    },
+    {
+      quote: "test quote",
+      source: "test source",
+    },
+    {
+      quote: "test quote",
+      source: "test source",
+    },
+    {
+      quote: "test quote",
+      source: "test source",
+    },
+];
+
 
 
 /***
@@ -22,7 +45,10 @@ project 1 - A Random Quote Generator
 /***
  * `printQuote` function
 ***/
+function printQuote() {
 
+  alert(quotes[0].quote);
+}
 
 
 /***

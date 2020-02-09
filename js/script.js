@@ -16,33 +16,51 @@ var lastcolor = null;
 
 var quotes = [
     {
-      quote: "test quote1",
-      source: "test source1",
-      citation: "citation1",
-      category: 'none',
-      year: 20635
-
+      quote: 'Perhaps today IS a good day to die!',
+      source: 'Lt. Commander Worf',
+      citation: 'Star Trek: First Contact',
+      category: 'Defiance',
+      year: 1996
     },
     {
-      quote: "test quote2",
-      source: "test source2",
-      category: 'humor',
+      quote: 'People say nothing is impossible, but I do nothing every day.',
+      source: 'A. A. Milne',
+      category: 'Humor',
     },
     {
-      quote: "test quote3",
-      source: "test source3",
-      category: 'business',
+      quote: 'Sometimes when you innovate, ' +
+       'you make mistakes. It is best to admit ' +
+        'them quickly, and get on with improving your other innovations.',
+      source: 'Steve Jobs',
+      category: 'Business',
     },
     {
-      quote: "test quote4",
-      source: "test source4",
-      category: 'business',
+      quote: 'The power of imagination makes us infinite.',
+      source: 'John Muir',
+      category: 'Inspirational',
     },
     {
-      quote: "test quote5",
-      source: "test source5",
-      category: 'politics',
+      quote: 'Imagination is more important than knowledge.',
+      source: 'Albert Einstein',
+      category: 'Science',
     },
+    {
+      quote: 'A fanatic is one who can’t change his mind and won’t ' + 
+      'change the subject.',
+      source: "Winston Churchill",
+      category: 'Politics',
+    },
+    {
+      quote: 'We did not come to fear the future. We came to shape it.',
+      source: "Barack Obama",
+      category: 'History',
+    },
+    {
+      quote: 'Injustice anywhere is a threat to justice everywhere',
+      source: "Martin Luther King Jr.",
+      category: 'Justice',
+    }
+    
 ];
 
 
@@ -73,7 +91,7 @@ function setColor() {
      color = colors[Math.floor(Math.random() * colors.length)];
    }
   }
-  document.body.style.background = color;
+  document.body.style.backgroundColor = color;
   lastcolor = color;
 }
 

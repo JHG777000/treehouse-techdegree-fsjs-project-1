@@ -36,8 +36,8 @@ var quotes = [
       category: 'Business',
     },
     {
-      quote: 'The power of imagination makes us infinite.',
-      source: 'John Muir',
+      quote: "It's never too late to be what you might've been.",
+      source: 'George Eliot',
       category: 'Inspirational',
     },
     {
